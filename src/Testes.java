@@ -1,12 +1,9 @@
 public class Testes {
     public static void main(String[] args) {
-        new Aluno();
-        Aluno novoAluno;
-        novoAluno = new Aluno();
-
-        novoAluno.nome = "Gabriel";
-
-        System.out.println("O aluno se chama: " + novoAluno.nome);
+        Aluno aluno = new Aluno("gabriel", "2022178TADS", 18, "capic2022118tads@ifpi.edu", null);
+        
+        
+    System.out.println("O aluno se chama: " + aluno.getNome());
 
         
         
